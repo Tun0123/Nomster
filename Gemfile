@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 # Use Twitter Bootstrap
 gem 'bootstrap-sass', '~> 3.3.5.1'
+gem  'simple_form'
 gem 'sprockets', '2.11.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -38,6 +39,9 @@ end
 
 # Use Rails 12factor Gem
 gem 'rails_12factor', group: :production
+
+# Uses will_paginate for pagination
+gem 'will_paginate'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
